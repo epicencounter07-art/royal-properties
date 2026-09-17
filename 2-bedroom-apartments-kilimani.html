@@ -10,6 +10,8 @@
 
   <meta name="keywords" content="2 bedroom apartments Kilimani, 2 bedroom apartment for sale in Kilimani, 2 bedroom apartments for sale Nairobi, apartments for sale Kilimani, Royal Legend Residency, Ndemi Road apartments">
 
+  <meta name="robots" content="index, follow">
+
   <link rel="canonical" href="https://royalpropertiesdevelopments.co.ke/2-bedroom-apartments-kilimani.html">
 
   <meta property="og:title" content="2 Bedroom Apartments for Sale in Kilimani | Royal Properties">
@@ -24,14 +26,10 @@
 
     body {
       margin: 0;
-      background: #0d0d0d;
+      background: #080808;
       color: #f8f4ee;
-      font-family: Georgia, "Times New Roman", serif;
-      line-height: 1.6;
-    }
-
-    a {
-      color: inherit;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
     }
 
     .container {
@@ -40,11 +38,12 @@
     }
 
     header {
-      padding: 24px 0;
-      border-bottom: 1px solid rgba(248,244,238,.12);
+      background: #0f0f0f;
+      border-bottom: 1px solid #292929;
+      padding: 18px 0;
     }
 
-    .header-inner {
+    .nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -52,163 +51,197 @@
     }
 
     .logo {
-      font-size: 1.4rem;
+      color: #c9a84c;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 22px;
       font-weight: bold;
-      letter-spacing: 1px;
+      text-decoration: none;
     }
 
-    .phone {
-      color: #ffffff;
+    .back {
+      color: #fff;
       text-decoration: none;
-      font-size: .95rem;
+      border: 1px solid #c9a84c;
+      padding: 9px 16px;
+      border-radius: 4px;
+      font-size: 14px;
     }
 
     .hero {
-      padding: 75px 0 45px;
+      padding: 75px 0 55px;
       text-align: center;
     }
 
     .hero h1 {
-      font-size: clamp(2rem, 5vw, 3.6rem);
-      margin: 0 0 18px;
-      line-height: 1.15;
+      color: #c9a84c;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(34px, 6vw, 58px);
+      line-height: 1.1;
+      margin: 0 0 20px;
     }
 
     .hero p {
       max-width: 780px;
       margin: auto;
-      color: rgba(248,244,238,.75);
-      font-size: 1.05rem;
+      color: #cfcfcf;
+      font-size: 17px;
     }
 
     .property-card {
-      background: #151515;
-      border: 1px solid rgba(248,244,238,.12);
-      border-radius: 14px;
-      padding: 30px;
-      margin-bottom: 30px;
+      background: #141414;
+      border: 1px solid #292929;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 45px;
     }
 
-    .property-card h2 {
+    .content {
+      padding: 35px;
+    }
+
+    h2 {
+      color: #c9a84c;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 32px;
       margin-top: 0;
-      font-size: 2rem;
     }
 
-    .location {
-      color: rgba(248,244,238,.7);
-      margin-bottom: 20px;
+    h3 {
+      color: #c9a84c;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 25px;
+      margin-top: 35px;
     }
 
-    .description {
-      color: rgba(248,244,238,.78);
-      font-size: .98rem;
+    h4 {
+      color: #c9a84c;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 20px;
+      margin-top: 25px;
+      margin-bottom: 8px;
     }
 
     .facts {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 14px;
-      margin: 25px 0;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      margin: 30px 0;
     }
 
     .fact {
-      padding: 18px;
-      border: 1px solid rgba(248,244,238,.12);
-      border-radius: 10px;
-      background: rgba(255,255,255,.025);
+      border: 1px solid #333;
+      padding: 20px;
+      background: #101010;
     }
 
     .fact strong {
       display: block;
-      margin-bottom: 4px;
+      color: #c9a84c;
+      font-size: 13px;
+      text-transform: uppercase;
+      margin-bottom: 6px;
     }
 
     .fact span {
-      color: rgba(248,244,238,.7);
-    }
-
-    .photos-title {
-      margin-top: 35px;
+      font-size: 18px;
     }
 
     .gallery {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 15px;
-      margin-top: 18px;
+      margin-top: 20px;
     }
 
     .gallery img {
       width: 100%;
       height: 260px;
       object-fit: cover;
-      border-radius: 10px;
+      border-radius: 8px;
       display: block;
+    }
+
+    .amenities {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+      margin-top: 20px;
+      margin-bottom: 35px;
+    }
+
+    .amenity {
+      border: 1px solid #333;
+      padding: 18px;
+      background: #101010;
+      text-align: center;
+    }
+
+    .amenity strong {
+      color: #c9a84c;
     }
 
     .cta {
       text-align: center;
-      margin: 35px 0;
-      padding: 30px;
-      background: #181818;
-      border-radius: 12px;
-      border: 1px solid rgba(248,244,238,.12);
+      background: #111;
+      border: 1px solid #333;
+      padding: 35px 20px;
+      margin-top: 40px;
     }
 
     .cta h2 {
-      margin-top: 0;
+      margin-bottom: 10px;
     }
 
-    .buttons {
-      display: flex;
-      justify-content: center;
-      gap: 12px;
-      flex-wrap: wrap;
-      margin-top: 20px;
-    }
-
-    .button {
+    .whatsapp {
       display: inline-block;
-      padding: 13px 22px;
-      border-radius: 6px;
+      background: #c9a84c;
+      color: #080808;
       text-decoration: none;
-      border: 1px solid rgba(248,244,238,.25);
-      color: #ffffff;
+      font-weight: bold;
+      padding: 14px 25px;
+      border-radius: 4px;
+      margin-top: 15px;
     }
 
-    .button.primary {
-      background: #ffffff;
-      color: #111111;
+    .phone {
+      color: #fff;
+      text-decoration: none;
     }
 
     footer {
-      padding: 35px 0;
-      border-top: 1px solid rgba(248,244,238,.12);
-      color: rgba(248,244,238,.6);
       text-align: center;
-      font-size: .9rem;
+      padding: 35px 20px;
+      color: #888;
+      border-top: 1px solid #292929;
+      margin-top: 50px;
     }
 
-    @media (max-width: 700px) {
-      .header-inner {
-        flex-direction: column;
-        text-align: center;
+    @media (max-width: 800px) {
+      .facts {
+        grid-template-columns: repeat(2, 1fr);
       }
 
-      .facts {
-        grid-template-columns: 1fr;
+      .amenities {
+        grid-template-columns: repeat(2, 1fr);
       }
 
       .gallery {
         grid-template-columns: 1fr;
       }
+    }
 
-      .gallery img {
-        height: 240px;
+    @media (max-width: 600px) {
+      .facts,
+      .amenities {
+        grid-template-columns: 1fr;
       }
 
-      .property-card {
-        padding: 22px;
+      .content {
+        padding: 25px 20px;
+      }
+
+      .hero {
+        padding: 55px 0 40px;
       }
     }
   </style>
@@ -238,87 +271,139 @@
 
 <body>
 
-  <header>
-    <div class="container header-inner">
-      <div class="logo">Royal Properties</div>
+<header>
+  <div class="container nav">
 
-      <a class="phone" href="tel:+254769787878">
-        0769 787878
-      </a>
+    <a href="https://royalpropertiesdevelopments.co.ke/" class="logo">
+      Royal Properties
+    </a>
+
+    <a href="https://royalpropertiesdevelopments.co.ke/" class="back">
+      ← Back to Website
+    </a>
+
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="container">
+
+      <h1>2 Bedroom Apartments for Sale in Kilimani</h1>
+
+      <p>
+        Discover modern 2 bedroom apartments for sale in Kilimani,
+        Nairobi at Royal Legend Residency on Ndemi Road.
+      </p>
+
     </div>
-  </header>
+  </section>
 
-  <main>
+  <section class="container">
 
-    <section class="hero">
-      <div class="container">
-        <h1>2 Bedroom Apartments for Sale in Kilimani</h1>
+    <div class="property-card">
 
-        <p>
-          Discover modern 2 bedroom apartments for sale in Kilimani, Nairobi
-          at Royal Legend Residency on Ndemi Road.
-        </p>
-      </div>
-    </section>
-
-    <section class="container">
-
-      <div class="property-card">
+      <div class="content">
 
         <h2>Royal Legend Residency</h2>
 
-        <div class="location">
-          Ndemi Road, Kilimani, Nairobi
-        </div>
-
-        <p class="description">
-          Royal Legend Residency offers 2 bedroom apartments for sale in
-          Kilimani, Nairobi, along Ndemi Road. The apartments range from
-          96 to 126 sqm and are designed for homeowners and investors looking
-          for modern residential property in Kilimani.
+        <p>
+          Royal Legend Residency offers 2 bedroom apartments for sale
+          in Kilimani, Nairobi, along Ndemi Road. The apartments range
+          from 96 to 126 sqm and are designed for homeowners and
+          investors looking for modern residential property in Kilimani.
         </p>
 
-        <p class="description">
-          The development provides convenient access to shopping, dining,
-          schools, offices and other city amenities, making it a practical
-          location for both residents and property investors.
+        <p>
+          The development provides access to shopping, dining, schools,
+          offices and other city amenities, making it a practical
+          location for residents and property investors.
         </p>
 
         <div class="facts">
 
           <div class="fact">
-            <strong>2 Bedroom</strong>
-            <span>Modern apartment</span>
+            <strong>Apartment Type</strong>
+            <span>2 Bedroom</span>
           </div>
 
           <div class="fact">
-            <strong>96–126 sqm</strong>
-            <span>Apartment sizes</span>
+            <strong>Size</strong>
+            <span>96–126 sqm</span>
           </div>
 
           <div class="fact">
-            <strong>From KES 15,000,000</strong>
-            <span>Starting price</span>
+            <strong>Price</strong>
+            <span>From KES 15M</span>
           </div>
 
           <div class="fact">
-            <strong>Ndemi Road</strong>
-            <span>Kilimani, Nairobi</span>
+            <strong>Location</strong>
+            <span>Ndemi Road, Kilimani</span>
           </div>
 
           <div class="fact">
-            <strong>Completion: End of 2026</strong>
-            <span>Development completion</span>
+            <strong>City</strong>
+            <span>Nairobi, Kenya</span>
           </div>
 
           <div class="fact">
-            <strong>Royal Legend Residency</strong>
-            <span>Kilimani residential development</span>
+            <strong>Completion</strong>
+            <span>End of 2026</span>
           </div>
 
         </div>
 
-        <h3 class="photos-title">2 Bedroom Apartment Photos</h3>
+        <h3>2 Bedroom Apartment in Kilimani</h3>
+
+        <p>
+          If you are looking for a 2 bedroom apartment in Kilimani,
+          Royal Legend Residency offers apartments ranging from
+          96 to 126 sqm within a modern residential development.
+          The property is located along Ndemi Road in Kilimani, Nairobi.
+        </p>
+
+        <p>
+          The apartments are suitable for homeowners and buyers
+          looking for residential property in Kilimani. Prices start
+          from KES 15 million.
+        </p>
+
+        <h3>Royal Legend Residency Location</h3>
+
+        <p>
+          Royal Legend Residency is located along Ndemi Road in
+          Kilimani, Nairobi. Kilimani is an established Nairobi
+          residential and commercial neighbourhood with access to
+          shopping, dining, schools, offices and other city amenities.
+        </p>
+
+        <h3>Why Choose a 2 Bedroom Apartment in Kilimani?</h3>
+
+        <p>
+          A 2 bedroom apartment at Royal Legend Residency provides
+          practical living space in Kilimani, Nairobi. With apartment
+          sizes ranging from 96 to 126 sqm, the development offers
+          different options for buyers looking for a modern home
+          within an established Nairobi neighbourhood.
+        </p>
+
+        <p>
+          The development provides residential amenities including
+          a swimming pool, fully equipped gym, jogging track,
+          kids' play area, parking, 24/7 security, lifts and
+          backup power.
+        </p>
+
+        <p>
+          For buyers searching for a 2 bedroom apartment for sale
+          in Kilimani, Royal Legend Residency combines modern
+          residential facilities with access to the wider Kilimani
+          neighbourhood.
+        </p>
+
+        <h3>Property Photos</h3>
 
         <div class="gallery">
 
@@ -339,46 +424,146 @@
 
         </div>
 
-      </div>
+        <h3>Amenities at Royal Legend Residency</h3>
 
-      <div class="cta">
+        <div class="amenities">
 
-        <h2>Interested in a 2 Bedroom Apartment?</h2>
+          <div class="amenity">
+            <strong>Swimming Pool</strong>
+          </div>
+
+          <div class="amenity">
+            <strong>Fully Equipped Gym</strong>
+          </div>
+
+          <div class="amenity">
+            <strong>Jogging Track</strong>
+          </div>
+
+          <div class="amenity">
+            <strong>Kids' Play Area</strong>
+          </div>
+
+          <div class="amenity">
+            <strong>Parking</strong>
+          </div>
+
+          <div class="amenity">
+            <strong>24/7 Security</strong>
+          </div>
+
+          <div class="amenity">
+            <strong>Lifts</strong>
+          </div>
+
+          <div class="amenity">
+            <strong>Backup Power</strong>
+          </div>
+
+        </div>
+
+        <h3>Nearby Places & Accessibility</h3>
 
         <p>
-          Contact Royal Properties for more information, pricing and to
-          arrange a viewing at Royal Legend Residency in Kilimani.
+          Royal Legend Residency is located along Ndemi Road in
+          Kilimani, Nairobi, with convenient access to major roads,
+          shopping, dining, schools, offices and other everyday amenities.
         </p>
 
-        <div class="buttons">
+        <p>
+          The location provides access to the wider Kilimani area and
+          nearby Nairobi neighbourhoods, making it convenient for
+          homeowners and buyers looking for a centrally located
+          apartment in Nairobi.
+        </p>
+
+        <p>
+          Residents can enjoy the convenience of being close to the
+          commercial and residential facilities that make Kilimani
+          a popular area for modern city living.
+        </p>
+
+        <h3>Frequently Asked Questions About 2 Bedroom Apartments in Kilimani</h3>
+
+        <h4>How much is a 2 bedroom apartment in Kilimani?</h4>
+
+        <p>
+          2 bedroom apartments at Royal Legend Residency are available
+          from KES 15 million.
+        </p>
+
+        <h4>How big are the 2 bedroom apartments?</h4>
+
+        <p>
+          The 2 bedroom apartments range from 96 to 126 sqm.
+        </p>
+
+        <h4>Where is Royal Legend Residency located?</h4>
+
+        <p>
+          Royal Legend Residency is located along Ndemi Road in
+          Kilimani, Nairobi, Kenya.
+        </p>
+
+        <h4>When will Royal Legend Residency be completed?</h4>
+
+        <p>
+          The development is scheduled for completion at the end of 2026.
+        </p>
+
+        <h4>What amenities are available?</h4>
+
+        <p>
+          Amenities include a swimming pool, fully equipped gym,
+          jogging track, kids' play area, parking, 24/7 security,
+          lifts and backup power.
+        </p>
+
+        <h4>How can I book a viewing?</h4>
+
+        <p>
+          Contact Royal Properties on 0769 787878 or use the
+          WhatsApp enquiry button below to request more information
+          or arrange a viewing.
+        </p>
+
+        <div class="cta">
+
+          <h2>Interested in a 2 Bedroom Apartment?</h2>
+
+          <p>
+            Contact Royal Properties for more information,
+            pricing and viewing arrangements at Royal Legend Residency.
+          </p>
+
+          <p>
+            <a class="phone" href="tel:+254769787878">
+              0769 787878
+            </a>
+          </p>
 
           <a
-            class="button primary"
+            class="whatsapp"
             href="https://wa.me/254769787878?text=Hi%2C%20I'm%20interested%20in%20the%202%20bedroom%20apartment%20at%20Royal%20Legend%20Residency%20in%20Kilimani."
+            target="_blank"
+            rel="noopener"
           >
-            WhatsApp Us
-          </a>
-
-          <a
-            class="button"
-            href="tel:+254769787878"
-          >
-            Call 0769 787878
+            Enquire on WhatsApp
           </a>
 
         </div>
 
       </div>
 
-    </section>
-
-  </main>
-
-  <footer>
-    <div class="container">
-      Royal Properties Developments · Kilimani, Nairobi
     </div>
-  </footer>
+
+  </section>
+
+</main>
+
+<footer>
+  © 2026 Royal Properties Developments · Kilimani, Nairobi
+</footer>
 
 </body>
 </html>
