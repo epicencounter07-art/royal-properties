@@ -13,7 +13,7 @@
 
   <meta
     name="description"
-    content="Find 2 bedroom apartments for sale in Kilimani at Royal Harmony Residence on Lenana Road, Nairobi. 135 sqm apartments priced from KES 15.6M to KES 16.9M. Explore prices, amenities, payment plan and location."
+    content="Find 2 bedroom apartments for sale in Kilimani at Royal Harmony Residence on Lenana Road, Nairobi. Choose from 125 sqm and 135 sqm apartments with prices from KES 14M."
   >
 
   <meta
@@ -35,7 +35,7 @@
 
   <meta
     property="og:description"
-    content="135 sqm 2 bedroom apartments for sale at Royal Harmony Residence on Lenana Road, Kilimani, Nairobi. Prices from KES 15.6M."
+    content="125 sqm and 135 sqm 2 bedroom apartments for sale at Royal Harmony Residence on Lenana Road, Kilimani. Prices from KES 14M."
   >
 
   <meta property="og:type" content="website">
@@ -67,8 +67,8 @@
   {
     "@context":"https://schema.org",
     "@type":"Apartment",
-    "name":"2 Bedroom Apartment at Royal Harmony Residence",
-    "description":"2 bedroom apartment measuring approximately 135 sqm at Royal Harmony Residence on Lenana Road, Kilimani, Nairobi.",
+    "name":"2 Bedroom Apartments at Royal Harmony Residence",
+    "description":"2 bedroom apartments measuring 125 sqm and 135 sqm at Royal Harmony Residence on Lenana Road, Kilimani, Nairobi.",
     "url":"https://royalpropertiesdevelopments.co.ke/2-bedroom-apartments-kilimani-royal-harmony.html",
     "telephone":"+254769787878",
     "address":{
@@ -81,8 +81,9 @@
     "offers":{
       "@type":"AggregateOffer",
       "priceCurrency":"KES",
-      "lowPrice":"15600000",
-      "highPrice":"16900000"
+      "lowPrice":"14000000",
+      "highPrice":"16900000",
+      "offerCount":"6"
     }
   }
   </script>
@@ -484,36 +485,35 @@
       background:var(--dark);
     }
 
-    .price-box{
-      max-width:900px;
-      margin:auto;
-      border:1px solid rgba(201,168,76,.2);
-      background:#131313;
+    .table-wrap{
+      overflow-x:auto;
+      border:1px solid rgba(255,255,255,.08);
     }
 
-    .price-row{
-      display:grid;
-      grid-template-columns:1.2fr 1fr 1fr;
-      border-bottom:1px solid rgba(255,255,255,.06);
+    table{
+      width:100%;
+      border-collapse:collapse;
+      min-width:760px;
     }
 
-    .price-row:last-child{
-      border-bottom:none;
-    }
-
-    .price-row div{
-      padding:18px 20px;
-    }
-
-    .price-row.header{
-      color:var(--gold);
+    th{
       background:#191919;
+      color:var(--gold);
+      padding:16px;
+      text-align:left;
       font-size:.72rem;
       text-transform:uppercase;
       letter-spacing:.1em;
     }
 
-    .price-row:not(.header) div:last-child{
+    td{
+      padding:17px 16px;
+      border-top:1px solid rgba(255,255,255,.07);
+      color:rgba(248,244,238,.82);
+      font-size:.9rem;
+    }
+
+    td:last-child{
       color:var(--gold2);
       font-weight:600;
     }
@@ -749,10 +749,6 @@
         grid-template-columns:repeat(2,1fr);
       }
 
-      .fact:nth-child(2){
-        border-right:none;
-      }
-
       .property-grid{
         grid-template-columns:1fr;
         gap:40px;
@@ -770,9 +766,6 @@
         grid-template-columns:1fr;
       }
 
-      .price-row{
-        grid-template-columns:1fr 1fr 1fr;
-      }
     }
 
     @media(max-width:600px){
@@ -813,7 +806,8 @@
         grid-template-columns:1fr 1fr;
       }
 
-      .price-row div{
+      td,
+      th{
         padding:13px 10px;
         font-size:.78rem;
       }
@@ -884,7 +878,7 @@
 
       <img
         src="./images/harmony-1.jpg"
-        alt="2 bedroom apartment at Royal Harmony Residence Kilimani"
+        alt="2 bedroom apartments at Royal Harmony Residence Kilimani"
       >
 
     </div>
@@ -894,18 +888,18 @@
     <div class="container hero-content">
 
       <p class="eyebrow">
-        2 Bedroom Apartment · Kilimani, Nairobi
+        2 Bedroom Apartments · Kilimani, Nairobi
       </p>
 
       <h1>
-        2 Bedroom Apartment<br>
+        2 Bedroom Apartments<br>
         in <em>Kilimani</em>
       </h1>
 
       <p class="hero-text">
-        Discover the 2 bedroom apartment at Royal Harmony Residence on
-        Lenana Road, Kilimani. The apartment measures approximately
-        135 sqm and is priced from KES 15.6M.
+        Discover 2 bedroom apartments at Royal Harmony Residence on
+        Lenana Road, Kilimani. Choose from 125 sqm and 135 sqm
+        apartments, with prices starting from KES 14M.
       </p>
 
       <div class="hero-buttons">
@@ -914,11 +908,11 @@
           href="#pricing"
           class="btn-gold"
         >
-          View Price
+          View Prices
         </a>
 
         <a
-          href="https://wa.me/254769787878?text=Hi%2C%20I'm%20interested%20in%20the%202%20bedroom%20apartment%20at%20Royal%20Harmony%20Residence%20in%20Kilimani.%20Please%20send%20me%20more%20details."
+          href="https://wa.me/254769787878?text=Hi%2C%20I'm%20interested%20in%20the%202%20bedroom%20apartments%20at%20Royal%20Harmony%20Residence%20in%20Kilimani.%20Please%20send%20me%20the%20price%20list."
           target="_blank"
           rel="noopener"
           class="btn-outline"
@@ -941,7 +935,7 @@
 
       <div class="fact">
 
-        <strong>135</strong>
+        <strong>125–135</strong>
 
         <span>
           Square Metres
@@ -961,7 +955,7 @@
 
       <div class="fact">
 
-        <strong>15.6M+</strong>
+        <strong>14M+</strong>
 
         <span>
           Starting Price
@@ -1017,18 +1011,18 @@
 
         <p>
           If you are looking for a 2 bedroom apartment for sale in
-          Kilimani, Royal Harmony Residence offers approximately
-          135 sqm of living space along Lenana Road.
+          Kilimani, Royal Harmony Residence offers apartment sizes
+          of approximately 125 sqm and 135 sqm.
         </p>
 
         <p>
-          The apartment is suitable for homeowners and buyers looking
-          for a larger modern residential property in Kilimani,
-          Nairobi.
+          The apartments are located along Lenana Road in Kilimani,
+          Nairobi, within Royal Harmony Residence.
         </p>
 
         <p>
-          The current listed price range is KES 15.6M–16.9M.
+          Prices start from KES 14M, with pricing varying according
+          to apartment size and floor.
         </p>
 
         <div class="feature-list">
@@ -1039,18 +1033,18 @@
           </div>
 
           <div>
-            <strong>Apartment Size:</strong>
-            Approximately 135 sqm
+            <strong>Size Range:</strong>
+            125 sqm – 135 sqm
           </div>
 
           <div>
-            <strong>Price:</strong>
-            KES 15.6M – 16.9M
+            <strong>Starting Price:</strong>
+            KES 14M
           </div>
 
           <div>
-            <strong>Floor Range:</strong>
-            1st–15th
+            <strong>Floor Options:</strong>
+            1st – 15th
           </div>
 
           <div>
@@ -1092,15 +1086,14 @@
       <div class="gold-line"></div>
 
       <p>
-        If you are looking for a 2 bedroom apartment for sale in
-        Kilimani, Royal Harmony Residence offers an approximately
-        135 sqm apartment along Lenana Road in Nairobi.
+        Royal Harmony Residence offers 2 bedroom apartments for sale
+        in Kilimani in two main sizes: approximately 125 sqm and
+        135 sqm.
       </p>
 
       <p>
-        The apartment is listed at KES 15.6M–16.9M depending on
-        the applicable unit pricing. The apartment is positioned
-        within the 1st–15th floor range.
+        Prices start from KES 14M. The final price depends on the
+        apartment size and floor range selected.
       </p>
 
 
@@ -1114,8 +1107,8 @@
       </p>
 
       <p>
-        The development provides access to the wider Kilimani area
-        and surrounding Nairobi neighbourhoods.
+        The location provides access to the wider Kilimani area and
+        surrounding Nairobi neighbourhoods.
       </p>
 
 
@@ -1136,11 +1129,11 @@
         <div class="info-box">
 
           <strong>
-            Size
+            Size Options
           </strong>
 
           <span>
-            Approximately 135 sqm
+            125 sqm and 135 sqm
           </span>
 
         </div>
@@ -1148,11 +1141,11 @@
         <div class="info-box">
 
           <strong>
-            Price
+            Starting Price
           </strong>
 
           <span>
-            KES 15.6M – 16.9M
+            KES 14M
           </span>
 
         </div>
@@ -1164,7 +1157,7 @@
           </strong>
 
           <span>
-            1st–15th
+            1st – 15th
           </span>
 
         </div>
@@ -1201,15 +1194,14 @@
       </h2>
 
       <p>
-        A 2 bedroom apartment at Royal Harmony Residence provides
-        approximately 135 sqm of living space within a residential
-        development in Kilimani.
+        A 2 bedroom apartment at Royal Harmony Residence gives
+        buyers a choice between approximately 125 sqm and 135 sqm
+        layouts.
       </p>
 
       <p>
-        The apartment provides an option for buyers looking for
-        additional living space within an established Nairobi
-        neighbourhood.
+        The different floor-based prices allow buyers to select an
+        apartment according to their preferred size, floor and budget.
       </p>
 
 
@@ -1247,44 +1239,164 @@
       </p>
 
       <h2 class="section-title">
-        2 Bedroom <em>Apartment Price</em>
+        2 Bedroom <em>Apartment Prices</em>
       </h2>
 
       <div class="gold-line"></div>
 
-      <div class="price-box">
+      <div class="table-wrap">
 
-        <div class="price-row header">
+        <table>
 
-          <div>
-            Unit Type
-          </div>
+          <thead>
 
-          <div>
-            Size
-          </div>
+            <tr>
 
-          <div>
-            Price
-          </div>
+              <th>
+                Unit Type
+              </th>
 
-        </div>
+              <th>
+                Size
+              </th>
 
-        <div class="price-row">
+              <th>
+                Floor
+              </th>
 
-          <div>
-            2 Bedroom
-          </div>
+              <th>
+                Price
+              </th>
 
-          <div>
-            135 sqm
-          </div>
+            </tr>
 
-          <div>
-            KES 15.6M – 16.9M
-          </div>
+          </thead>
 
-        </div>
+          <tbody>
+
+            <tr>
+
+              <td>
+                2 Bedroom
+              </td>
+
+              <td>
+                125 sqm
+              </td>
+
+              <td>
+                1st–5th
+              </td>
+
+              <td>
+                KES 14.0M
+              </td>
+
+            </tr>
+
+            <tr>
+
+              <td>
+                2 Bedroom
+              </td>
+
+              <td>
+                125 sqm
+              </td>
+
+              <td>
+                6th–10th
+              </td>
+
+              <td>
+                KES 14.6M
+              </td>
+
+            </tr>
+
+            <tr>
+
+              <td>
+                2 Bedroom
+              </td>
+
+              <td>
+                125 sqm
+              </td>
+
+              <td>
+                11th–15th
+              </td>
+
+              <td>
+                KES 15.1M
+              </td>
+
+            </tr>
+
+            <tr>
+
+              <td>
+                2 Bedroom
+              </td>
+
+              <td>
+                135 sqm
+              </td>
+
+              <td>
+                1st–5th
+              </td>
+
+              <td>
+                KES 15.6M
+              </td>
+
+            </tr>
+
+            <tr>
+
+              <td>
+                2 Bedroom
+              </td>
+
+              <td>
+                135 sqm
+              </td>
+
+              <td>
+                6th–10th
+              </td>
+
+              <td>
+                KES 16.3M
+              </td>
+
+            </tr>
+
+            <tr>
+
+              <td>
+                2 Bedroom
+              </td>
+
+              <td>
+                135 sqm
+              </td>
+
+              <td>
+                11th–15th
+              </td>
+
+              <td>
+                KES 16.9M
+              </td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
 
       </div>
 
@@ -1518,8 +1630,8 @@
         </h3>
 
         <p>
-          The 2 bedroom apartment at Royal Harmony Residence is
-          currently listed at KES 15.6M–16.9M.
+          Prices for the 2 bedroom apartments at Royal Harmony
+          Residence start from KES 14M.
         </p>
 
       </div>
@@ -1528,11 +1640,12 @@
       <div class="faq-item">
 
         <h3>
-          How big is the 2 bedroom apartment?
+          What sizes are available?
         </h3>
 
         <p>
-          The 2 bedroom apartment measures approximately 135 sqm.
+          The available 2 bedroom apartment sizes are approximately
+          125 sqm and 135 sqm.
         </p>
 
       </div>
@@ -1541,12 +1654,26 @@
       <div class="faq-item">
 
         <h3>
-          What floor range is available?
+          How much is the 125 sqm apartment?
         </h3>
 
         <p>
-          The 2 bedroom apartment is listed within the 1st–15th
-          floor range.
+          The 125 sqm apartment is KES 14.0M on floors 1–5,
+          KES 14.6M on floors 6–10 and KES 15.1M on floors 11–15.
+        </p>
+
+      </div>
+
+
+      <div class="faq-item">
+
+        <h3>
+          How much is the 135 sqm apartment?
+        </h3>
+
+        <p>
+          The 135 sqm apartment is KES 15.6M on floors 1–5,
+          KES 16.3M on floors 6–10 and KES 16.9M on floors 11–15.
         </p>
 
       </div>
@@ -1640,7 +1767,7 @@
       <div class="cta-buttons">
 
         <a
-          href="https://wa.me/254769787878?text=Hi%2C%20I'm%20interested%20in%20the%202%20bedroom%20apartment%20at%20Royal%20Harmony%20Residence%20in%20Kilimani.%20Please%20send%20me%20more%20details."
+          href="https://wa.me/254769787878?text=Hi%2C%20I'm%20interested%20in%20the%202%20bedroom%20apartments%20at%20Royal%20Harmony%20Residence%20in%20Kilimani.%20Please%20send%20me%20more%20details."
           target="_blank"
           rel="noopener"
           class="btn-gold"
@@ -1700,7 +1827,7 @@
 
     <svg viewBox="0 0 24 24">
 
-      <path d="M12.04 2a9.94 9.94 0 0 0-8.57 15.1L2 22l5.08-1.33A9.94 9.94 0 1 0 12.04 2Zm0 18a8 8 0 0 1-4.08-1.12l-.29-.17-3.02.79.8-2.94A8 8 0 1 1 12.04 20Zm4.39-5.98c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1-.37-1.91-1.18-.71-.63-1.19-1.4-1.33-1.64-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.19-.46-.39-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.69 2.58 4.09 3.62.57.25 1.01.39 1.35.5.57.18 1.09.16 1.5.1.46-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28Z"/>
+      <path d="M20.52 3.48A11.83 11.83 0 0 0 12.08 0C5.54 0 .21 5.33.21 11.87c0 2.09.55 4.13 1.59 5.92L.1 24l6.35-1.67a11.86 11.86 0 0 0 5.63 1.43h.01c6.53 0 11.86-5.33 11.86-11.87a11.82 11.82 0 0 0-3.43-8.41ZM12.08 21.8h-.01a9.9 9.9 0 0 1-5.05-1.39l-.36-.22-3.77.99 1.01-3.68-.24-.38a9.87 9.87 0 0 1-1.52-5.25c0-5.44 4.44-9.86 9.9-9.86 2.64 0 5.12 1.03 6.99 2.9a9.8 9.8 0 0 1 2.89 6.98c0 5.45-4.43 9.88-9.84 9.88Zm5.43-7.4c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.76-1.66-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51-.17-.01-.37-.01-.57-.01-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49 0 1.47 1.07 2.89 1.22 3.09.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.19 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.69.25-1.29.17-1.42-.07-.12-.27-.2-.57-.35Z"/>
 
     </svg>
 
